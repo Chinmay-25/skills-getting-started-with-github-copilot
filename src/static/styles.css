@@ -84,8 +84,7 @@ section h3 {
 }
 
 .activity-card .participant-list {
-  list-style-type: circle;
-  padding-left: 20px;
+  list-style-type: none;
   margin-top: 10px;
   background-color: #f0f8ff;
   border-radius: 4px;
@@ -94,8 +93,23 @@ section h3 {
 
 .activity-card .participant-item {
   margin-bottom: 5px;
-  color: #333; /* Darkened text color for better contrast */
-  font-weight: 500; /* Made text slightly bolder */
+  color: #333;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete-participant {
+  cursor: pointer;
+  color: #dc3545;
+  font-size: 1.2em;
+  padding: 0 5px;
+  transition: color 0.2s;
+}
+
+.delete-participant:hover {
+  color: #c82333;
 }
 
 .form-group {

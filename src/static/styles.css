@@ -83,7 +83,16 @@ section h3 {
   padding: 10px; /* Added padding for better spacing */
 }
 
-.activity-card li {
+.activity-card .participant-list {
+  list-style-type: circle;
+  padding-left: 20px;
+  margin-top: 10px;
+  background-color: #f0f8ff;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.activity-card .participant-item {
   margin-bottom: 5px;
   color: #333; /* Darkened text color for better contrast */
   font-weight: 500; /* Made text slightly bolder */

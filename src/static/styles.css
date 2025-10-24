@@ -75,14 +75,18 @@ section h3 {
 }
 
 .activity-card ul {
-  list-style-type: disc;
+  list-style-type: circle; /* Changed to circle for a different bullet style */
   padding-left: 20px;
   margin-top: 10px;
+  background-color: #f0f8ff; /* Added a light background color */
+  border-radius: 4px; /* Added border radius for rounded corners */
+  padding: 10px; /* Added padding for better spacing */
 }
 
 .activity-card li {
   margin-bottom: 5px;
-  color: #555;
+  color: #333; /* Darkened text color for better contrast */
+  font-weight: 500; /* Made text slightly bolder */
 }
 
 .form-group {
